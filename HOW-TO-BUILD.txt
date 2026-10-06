@@ -1,0 +1,6 @@
+1. On github.com make a new repository (private is fine).
+2. Click "Add file" > "Upload files", drag in EVERYTHING in this folder (including the hidden .github folder; if your
+   browser skips it, create the file .github/workflows/build.yml by hand and paste in the contents), then Commit.
+3. Open the "Actions" tab, wait for "Build CorrosionCore" to turn green (~1 minute).
+4. Click the run, scroll to Artifacts, download CorrosionCore, unzip it -> CorrosionCore-1.0.0.jar.
+5. Upload that jar to your server's plugins/ folder. Rename it CorrosionCore.jar and delete any old copy.
